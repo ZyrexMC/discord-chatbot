@@ -39,7 +39,7 @@ async def on_message(message):
 
         conversation += prompt
 
-        response = openai.Completion.create(engine='text-curie-001', prompt=conversation, max_tokens=100)
+        response = openai.Completion.create(engine='text-davinci-001', prompt=conversation, max_tokens=100)
         response_str = response["choices"][0]["text"].replace("\n", " ")
         response_str = response_str.split(user_name + ": ", 1)[0].split("amy: ", 1)[0]
 
