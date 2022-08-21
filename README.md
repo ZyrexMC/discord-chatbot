@@ -1,4 +1,4 @@
-# Discord.py Example
+# Discord.py OpenAi chatbot
 
 Checkout the documentation of [discord.py](https://discordpy.readthedocs.io/en/stable/).
 
